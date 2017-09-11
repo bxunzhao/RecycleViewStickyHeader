@@ -133,7 +133,7 @@ public class StickyRecyclerHeadersDecoration extends RecyclerView.ItemDecoration
    * @return position of header, or -1 if not found
    */
   public int findHeaderPositionUnder(int x, int y) {
-    for (int i = 0; i < mHeaderRects.size(); i++) {
+    for (int i = mHeaderRects.size() - 1; i >= 0 ; i--) {
       Rect rect = mHeaderRects.get(mHeaderRects.keyAt(i));
       if (rect.contains(x, y)) {
         int position = mHeaderRects.keyAt(i);
