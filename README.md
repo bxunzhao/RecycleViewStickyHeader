@@ -1,3 +1,9 @@
+# RecycleViewStickyHeader
+Override sticky-recycle-view-header
+
+this project forked from com.timehop.stickyheadersrecyclerview:library
+
+
 This project is no longer being maintained
 ==========================================
 
@@ -138,5 +144,4 @@ Version History
 
 0.1 (10/2/2014) - Initial Release
 =======
-# RecycleViewStickyHeader
-Override sticky-recycle-view-header
+
