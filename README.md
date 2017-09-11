@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project is no longer being maintained
 ==========================================
 
@@ -137,3 +138,7 @@ Version History
 0.2 (10/3/2014) - Add StickyRecyclerHeadersTouchListener
 
 0.1 (10/2/2014) - Initial Release
+=======
+# RecycleViewStickyHeader
+Override sticky-recycle-view-header
+>>>>>>> 77821e479532f8807ef947e820e6239f8ec453d8
