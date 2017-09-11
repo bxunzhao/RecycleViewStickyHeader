@@ -98,7 +98,7 @@ public class StickyRecyclerHeadersDecoration extends RecyclerView.ItemDecoration
   public void onDrawOver(Canvas canvas, RecyclerView parent, RecyclerView.State state) {
     super.onDrawOver(canvas, parent, state);
 
-    final int childCount = parent.getChildCount();
+    final int childCount = mAdapter.getItemCount();
     if (childCount <= 0 || mAdapter.getItemCount() <= 0) {
       return;
     }
